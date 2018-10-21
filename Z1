@@ -1,0 +1,10 @@
+##Bir işletmenin 25 çalışanı bulunmaktadır. 
+##Buna göre toplam ciro değerini hesaplayarak adambaşı ciro değerini bulunuz. 
+##Ciro:Satış Miktarı*Birim Satış Fiyatı
+##Adambaşı Ciro:Toplam Ciro/Toplam Çalışan Sayısı
+x = float(input("Satış Miktarı:" ))
+y = float(input("Satış Fiyatı: "))
+z = x*y
+print ("TOPLAM CİRO",z,"TL") 
+adambaşıCiro = float(z) / 25
+print ("Adambaşı Ciro",adambaşıCiro,"TL") 
