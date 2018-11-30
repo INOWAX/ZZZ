@@ -8,3 +8,11 @@ z = x*y
 print ("TOPLAM CİRO",z,"TL") 
 adambaşıCiro = float(z) / 25
 print ("Adambaşı Ciro",adambaşıCiro,"TL") 
+
+def adambaşıCiro(satışMiktarı,satışFiyatı):
+    ortalama = (float(satışMiktarı) * float(satışFiyatı)) / 25
+    print ("Adambaşı Ciro",ortalama,"TL")
+    return ortalama
+x = input("Satış Miktarı :")    
+y = input("Satış Fiyatı :")    
+adambaşıCiro(x,y)
